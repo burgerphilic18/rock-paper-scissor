@@ -5,9 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
 </head>
-<body>
-    <div style="font-size:48px; background-color: rgb(190, 139, 90); text-align: center; border-radius: 10px; padding: 1em;">Rock Paper Scissors</div>
-    <div style="font-size:24px; background-color: rgb(190, 139, 90); text-align: center; border-radius: 10px; padding: 0.5em;">(Open Console Before Playing)</div>
+<body style="background: linear-gradient(135deg, #f5e9da 0%, #e7cba9 100%); font-family: 'Segoe UI', 'Arial', sans-serif; margin:0; min-height:100vh;">
+    <div style="font-size:3rem; background:#be8b5a; color:#fff; text-align:center; padding:0.5em 0; border-radius:0 0 20px 20px;">
+        Rock Paper Scissors
+    </div>
+    <div style="font-size:1.5rem; background:#be8b5a; color:#fff; text-align:center; border-radius:10px; padding:0.5em; margin:1em auto 0 auto; width:max-content;">
+        First to 5 wins!
+    </div>
+    <div style="text-align:center; margin-top:2em;">
+        <button id="rockBtn" style="font-size:2.5em; margin:0.5em;">🪨</button>
+        <button id="paperBtn" style="font-size:2.5em; margin:0.5em;">📄</button>
+        <button id="scissorsBtn" style="font-size:2.5em; margin:0.5em;">✂️</button>
+    </div>
+    <div id="result" style="font-size:1.5em; text-align:center; margin-top:1.5em; color:#7a4c15;"></div>
+    <div id="score" style="font-size:1.2em; text-align:center; margin-top:0.5em; color:#5b3a0a;"></div>
     <script src="script.js"></script>
 </body>
 </html>
